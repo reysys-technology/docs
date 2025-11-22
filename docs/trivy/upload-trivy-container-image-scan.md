@@ -1,8 +1,7 @@
-+++
-title = "upload-trivy-container-image-scan"
-type = "docs"
-description = ""
-+++
+---
+title: "upload-trivy-container-image-scan"
+description: ""
+---
 
 
 

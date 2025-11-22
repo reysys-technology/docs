@@ -1,8 +1,7 @@
-+++
-title = "get-account-information"
-type = "docs"
-description = ""
-+++
+---
+title: "get-account-information"
+description: ""
+---
 
 
 

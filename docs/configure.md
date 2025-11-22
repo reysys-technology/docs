@@ -1,8 +1,7 @@
-+++
-title = "configure"
-type = "docs"
-description = "Configure rscli credentials and settings"
-+++
+---
+title: "configure"
+description: "Configure rscli credentials and settings"
+---
 
 
 Configure rscli credentials and settings

@@ -1,9 +1,0 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'rscli'
-theme = ["docsy"]
-themesDir = "node_modules"
-ignoreFiles = ["^node_modules$"]
-enableRobotsTXT = true
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
