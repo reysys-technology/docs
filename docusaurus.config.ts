@@ -39,6 +39,17 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          lastVersion: 'current',
+          versions: {
+            current: {
+              label: '1.0.1',
+              badge: true,
+            },
+            '1.0.0': {
+              label: '1.0.0',
+              badge: true,
+            },
+          },
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -60,6 +71,10 @@ const config: Config = {
           sidebarId: 'cliReferenceSidebar',
           position: 'left',
           label: 'CLI Reference',
+        },
+        {
+          type: 'docsVersionDropdown',
+          position: 'right',
         },
         {
           href: 'https://github.com/reysys-technology/rscli',
