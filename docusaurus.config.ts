@@ -43,7 +43,11 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           lastVersion: 'current',
           versions: {
-            current: {
+            'current': {
+              label: '1.0.2',
+              badge: true,
+            },
+            '1.0.1': {
               label: '1.0.1',
               badge: true,
             },
