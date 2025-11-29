@@ -13,18 +13,91 @@
     "family": "Space+Grotesk"
   },
   "theme": "mint",
-  "name": "Reysys Documentation",
+  "name": "Reysys",
+  "navbar": {
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/reysys-technology/rscli"
+    }
+  },
   "navigation": {
     "versions": [
+      {
+        "version": "1.0.2",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "docs/version-1.0.2/installation",
+              "docs/version-1.0.2/configure"
+            ]
+          },
+          {
+            "group": "Account",
+            "pages": [
+              "docs/version-1.0.2/account/get-account-information"
+            ]
+          },
+          {
+            "group": "Trivy",
+            "pages": [
+              "docs/version-1.0.2/trivy/upload-trivy-container-image-scan"
+            ]
+          }
+        ]
+      },
+      {
+        "version": "1.0.1",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "docs/version-1.0.1/configure"
+            ]
+          },
+          {
+            "group": "Account",
+            "pages": [
+              "docs/version-1.0.1/account/get-account-information"
+            ]
+          },
+          {
+            "group": "Trivy",
+            "pages": [
+              "docs/version-1.0.1/trivy/upload-trivy-container-image-scan"
+            ]
+          }
+        ]
+      },
       {
         "version": "1.0.0",
         "groups": [
           {
-            "group": "CLI Reference",
-            "pages": ["docs"]
+            "group": "Account",
+            "pages": [
+              "docs/version-1.0.0/account/get-account-information"
+            ]
+          },
+          {
+            "group": "Trivy",
+            "pages": [
+              "docs/version-1.0.0/trivy/upload-trivy-container-image-scan"
+            ]
           }
         ]
       }
+    ]
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
     ]
   }
 }
