@@ -1,0 +1,30 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "appearance": {
+    "default": "system",
+    "strict": false
+  },
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "fonts": {
+    "family": "Space+Grotesk"
+  },
+  "theme": "mint",
+  "name": "Reysys Documentation",
+  "navigation": {
+    "versions": [
+      {
+        "version": "1.0.0",
+        "groups": [
+          {
+            "group": "CLI Reference",
+            "pages": ["docs"]
+          }
+        ]
+      }
+    ]
+  }
+}
