@@ -2,8 +2,6 @@
 title: installation
 ---
 
-# Installation
-
 ## Linux Package Managers
 
 ### APT (Debian/Ubuntu)
