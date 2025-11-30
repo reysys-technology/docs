@@ -2,8 +2,6 @@
 title: installation
 ---
 
-# Installation
-
 ## Linux Package Managers
 
 ### APT (Debian/Ubuntu)
@@ -94,4 +92,15 @@ sudo mv rscli_linux_amd64 /usr/bin/rscli
 curl -LO https://github.com/reysys-technology/rscli/releases/v1.0.2/download/rscli_linux_amd64
 chmod +x rscli_linux_amd64
 sudo mv rscli_linux_amd64 /usr/bin/rscli
+```
+
+## Install from Sources
+
+
+```shell
+go install github.com/reysys-technology/rscli/cmd/rscli@latest
+
+# Specific version
+go install github.com/reysys-technology/rscli/cmd/rscli@v1
+go install github.com/reysys-technology/rscli/cmd/rscli@v1.0.2
 ```
