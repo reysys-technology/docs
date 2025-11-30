@@ -23,6 +23,30 @@
   "navigation": {
     "versions": [
       {
+        "version": "1.0.3",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "docs/version-1.0.3/installation",
+              "docs/version-1.0.3/configure"
+            ]
+          },
+          {
+            "group": "Account",
+            "pages": [
+              "docs/version-1.0.3/account/get-account-information"
+            ]
+          },
+          {
+            "group": "Trivy",
+            "pages": [
+              "docs/version-1.0.3/trivy/upload-trivy-container-image-scan"
+            ]
+          }
+        ]
+      },
+      {
         "version": "1.0.2",
         "groups": [
           {

@@ -26,7 +26,7 @@ sudo apt update
 sudo apt install -y rscli
 
 # Specific version
-sudo apt install -y rscli=1.0.2
+sudo apt install -y rscli=1.0.3
 ```
 
 ### YUM (RHEL/Fedora/CentOS)
@@ -44,7 +44,7 @@ EOF
 sudo dnf install -y rscli
 
 # Specific version
-sudo dnf install -y rscli-1.0.2-1
+sudo dnf install -y rscli-1.0.3-1
 ```
 
 ## Docker
@@ -56,7 +56,7 @@ docker run reysys/rscli:latest
 
 # Specific version
 docker run reysys/rscli:1
-docker run reysys/rscli:1.0.2
+docker run reysys/rscli:1.0.3
 ```
 
 ### GitHub Container Registry
@@ -66,7 +66,7 @@ docker run ghcr.io/reysys-technology/rscli:latest
 
 # Specific version
 docker run ghcr.io/reysys-technology/rscli:1
-docker run ghcr.io/reysys-technology/rscli:1.0.2
+docker run ghcr.io/reysys-technology/rscli:1.0.3
 ```
 
 ## Homebrew
@@ -77,7 +77,7 @@ brew install rscli
 
 # Specific version
 brew install rscli@1
-brew install rscli@1.0.2
+brew install rscli@1.0.3
 ```
 
 ## GitHub Releases
@@ -91,7 +91,7 @@ chmod +x rscli_linux_amd64
 sudo mv rscli_linux_amd64 /usr/bin/rscli
 
 # Example for Linux amd64 specific version
-curl -LO https://github.com/reysys-technology/rscli/releases/v1.0.2/download/rscli_linux_amd64
+curl -LO https://github.com/reysys-technology/rscli/releases/v1.0.3/download/rscli_linux_amd64
 chmod +x rscli_linux_amd64
 sudo mv rscli_linux_amd64 /usr/bin/rscli
 ```
