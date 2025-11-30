@@ -8,7 +8,7 @@ title: installation
 
 ### APT (Debian/Ubuntu)
 
-```bash
+```shell
 sudo apt update
 sudo apt install ca-certificates curl -y
 sudo install -m 0755 -d /etc/apt/keyrings
@@ -31,7 +31,7 @@ sudo apt install -y rscli=1.0.2
 
 ### YUM (RHEL/Fedora/CentOS)
 
-```bash
+```shell
 sudo tee /etc/yum.repos.d/reysys.repo <<EOF
 [reysys]
 name=reysys
@@ -51,7 +51,7 @@ sudo dnf install -y rscli-1.0.2-1
 
 ### Docker Hub
 
-```bash
+```shell
 docker run reysys/rscli:latest
 
 # Specific version
@@ -61,7 +61,7 @@ docker run reysys/rscli:1.0.2
 
 ### GitHub Container Registry
 
-```bash
+```shell
 docker run ghcr.io/reysys-technology/rscli:latest
 
 # Specific version
@@ -71,7 +71,7 @@ docker run ghcr.io/reysys-technology/rscli:1.0.2
 
 ## Homebrew
 
-```bash
+```shell
 brew tap reysys-technology/homebrew-tap
 brew install rscli
 
@@ -84,7 +84,7 @@ brew install rscli@1.0.2
 
 Download pre-built binaries from the [GitHub Releases](https://github.com/reysys-technology/rscli/releases) page.
 
-```bash
+```shell
 # Example for Linux amd64
 curl -LO https://github.com/reysys-technology/rscli/releases/latest/download/rscli_linux_amd64
 chmod +x rscli_linux_amd64

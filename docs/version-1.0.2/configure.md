@@ -36,7 +36,7 @@ Environment variables take precedence over config file values.
 
 ## Example
 
-```bash
+```shell
 # Using environment variables
 export RS_SECRET_ID=my-id
 export RS_SECRET=my-secret
